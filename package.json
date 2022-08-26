@@ -1,0 +1,9 @@
+{
+    "name": "@himtiunesa2020/collaborators",
+    "version": "1.0.0",
+    "description": "collaborators list of himtiunesa2020",
+    "scripts": {
+        "validate": "node ./tools/validate-json.js ./collaborators.json",
+        "sort": "node ./tools/validate-json.js ./collaborators.json --with-sort"
+    }
+}

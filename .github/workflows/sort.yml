@@ -1,0 +1,38 @@
+name: Sort Collaborators File
+on:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - name: validating
+        run: npm run validate
+  sort:
+    if: |
+      github.event_name == 'push' &&
+      !contains(github.event.head_commit.message, '[auto-sort]') &&
+      !contains(github.event.head_commit.message, '(auto-sort)')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.PAT }}
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - name: sorting file
+        run: npm run sort
+      - name: push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'update collaborators file (auto-sort)'
+          commit_options: '--no-verify'
+          push_options: --force
