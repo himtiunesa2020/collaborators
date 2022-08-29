@@ -6,6 +6,12 @@
         "github": "viandwi24"
     },
     {
+        "name": "Abdul Rahman",
+        "nim": "20051204052",
+        "study_program": "TI",
+        "github": "abdulrcs"
+    },
+    {
         "name": "Bayu Al ikhlas Swari",
         "nim": "20051204073",
         "study_program": "TI",
@@ -16,11 +22,5 @@
         "nim": "20051204078",
         "study_program": "TI",
         "github": "riosiu"
-    },
-    {
-        "name": "Abdul Rahman",
-        "nim": "20051204052",
-        "study_program": "TI",
-        "github": "abdulrcs"
     }
 ]
