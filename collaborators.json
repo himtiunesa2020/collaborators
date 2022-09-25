@@ -6,6 +6,12 @@
         "github": "viandwi24"
     },
     {
+        "name": "M. Rizqi R",
+        "nim": "20051204034",
+        "study_program": "TI",
+        "github": "Rizqirazkafi"
+    },
+    {
         "name": "Abdul Rahman",
         "nim": "20051204052",
         "study_program": "TI",
@@ -22,11 +28,5 @@
         "nim": "20051204078",
         "study_program": "TI",
         "github": "riosiu"
-    },
-    {
-        "name": "M. Rizqi R",
-        "nim": "20051204034",
-        "study_program": "TI",
-        "github": "Rizqirazkafi"
     }
 ]
