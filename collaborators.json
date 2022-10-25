@@ -6,6 +6,12 @@
         "github": "viandwi24"
     },
     {
+        "name": "Jerry Yan Krismanto",
+        "nim": "20051204028",
+        "study_program": "TI",
+        "github": "jerry-krismanto"
+    },
+    {
         "name": "M. Rizqi R",
         "nim": "20051204034",
         "study_program": "TI",
@@ -28,11 +34,5 @@
         "nim": "20051204078",
         "study_program": "TI",
         "github": "riosiu"
-    },
-    {
-        "name": "Jerry Yan Krismanto",
-        "nim": "20051204028",
-        "study_program": "TI",
-        "github": "jerry-krismanto"
     }
 ]
